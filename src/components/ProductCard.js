@@ -12,9 +12,8 @@ export const ProductCard = ({product}) => {
   const {id, name, price, image} = product;
   const cartList = useSelector(state => state.cartState.cartList);
 
-  const isInCart = cartList.find(item => item.id === id)
-
   useEffect(() =>{
+    const isInCart = cartList.find(item => item.id === id)
     if (isInCart) {
       setInCart(true);
     } else {
@@ -22,8 +21,6 @@ export const ProductCard = ({product}) => {
     }
   },[cartList,id])
 
-
- 
   return (
     <div className="productCard">
       <img src={image} alt={name} />
