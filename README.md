@@ -13,7 +13,7 @@
 - React
 - Redux
 
-## 🚀 <a href="https://shoppingcart-ui.netlify.app/" target="_blank">Live Demo Link</a>
+## 🚀 <a href="https://redux-shopmate.netlify.app/" target="_blank">Live Demo Link</a>
 
 ## :electron: <a href="https://github.com/kiboma2021/Redux-Shopmate" target="_blank">Source Code</a>
 
